@@ -12,9 +12,9 @@
 - [Retrieve top trending video by region](#top-trending)
 
 # video-detail
-| Method   | URL                                      | Description                              | Status                                  |
-| -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
-| `GET`    | `/video/{id}`                            | Retrieve video detail.                   | 🟢 **Ready** 🟢                        |
+| API_ID   | Method   | URL                                      | Description                              | Status                                  |
+| -------- | -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
+| EXT_001  | `GET`    | `/video/{id}`                            | Retrieve video detail                    | 🟢 **Ready**                            |
 
 #### Header (required)
 ```
@@ -33,9 +33,9 @@ curl --location --globoff '{{endpoint}}/video/{{id}}' \
 ```
 
 # video-list
-| Method   | URL                                      | Description                              | Status                                  |
-| -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
-| `GET`    | `/videos/{id}`                           | Retrieve video by user id.               | ⚫ **Not Yet** ⚫                      |
+| API_ID   | Method   | URL                                      | Description                              | Status                                  |
+| -------- | -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
+| EXT_002  | `GET`    | `/videos/{id}`                           | Retrieve video by user id                | ⚫ **Not Yet**                          |
 
 #### Header (required)
 ```
@@ -54,9 +54,9 @@ curl --location --globoff '{{endpoint}}/videos/{{id}}' \
 ```
 
 # video-user-info
-| Method   | URL                                      | Description                              | Status                                  |
-| -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
-| `GET`    | `/user/{id}`                             | Retrieve user info by user id.           | ⚫ **Not Yet** ⚫                      |
+| API_ID   | Method   | URL                                      | Description                              | Status                                  |
+| -------- | -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
+| EXT_003  | `GET`    | `/user/{id}`                             | Retrieve user info by user id            | ⚫ **Not Yet**                          |
 
 #### Header (required)
 ```
@@ -75,9 +75,9 @@ curl --location --globoff '{{endpoint}}/user/{{id}}' \
 ```
 
 # top-trending
-| Method   | URL                                      | Description                              | Status                                  |
-| -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
-| `GET`    | `/trending/{region}`                     | Retrieve video detail.                   | ⚫ **Not Yet** ⚫                      |
+| API_ID   | Method   | URL                                      | Description                              | Status                                  |
+| -------- | -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
+| EXT_004  | `GET`    | `/trending/{region}`                     | Retrieve video detail                    | ⚫ **Not Yet**                          |
 
 #### Header (required)
 ```
