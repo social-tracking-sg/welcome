@@ -16,20 +16,84 @@
 | -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
 | `GET`    | `/video/{id}`                            | Retrieve video detail.                   | 🟢 **Ready** 🟢                        |
 
+#### Header (required)
+```
+x-api-key: {token}
+```
+
+#### Response
+```
+
+```
+
+#### cURL
+```
+curl --location --globoff '{{endpoint}}/video/{{id}}' \
+--header 'x-api-key: {{token}}'
+```
+
 # video-list
 | Method   | URL                                      | Description                              | Status                                  |
 | -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
 | `GET`    | `/videos/{id}`                           | Retrieve video by user id.               | ⚫ **Not Yet** ⚫                      |
+
+#### Header (required)
+```
+x-api-key: {token}
+```
+
+#### Response
+```
+
+```
+
+#### cURL
+```
+curl --location --globoff '{{endpoint}}/videos/{{id}}' \
+--header 'x-api-key: {{token}}'
+```
 
 # video-user-info
 | Method   | URL                                      | Description                              | Status                                  |
 | -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
 | `GET`    | `/user/{id}`                             | Retrieve user info by user id.           | ⚫ **Not Yet** ⚫                      |
 
+#### Header (required)
+```
+x-api-key: {token}
+```
+
+#### Response
+```
+
+```
+
+#### cURL
+```
+curl --location --globoff '{{endpoint}}/user/{{id}}' \
+--header 'x-api-key: {{token}}'
+```
+
 # top-trending
 | Method   | URL                                      | Description                              | Status                                  |
 | -------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------|
 | `GET`    | `/trending/{region}`                     | Retrieve video detail.                   | ⚫ **Not Yet** ⚫                      |
+
+#### Header (required)
+```
+x-api-key: {token}
+```
+
+#### Response
+```
+
+```
+
+#### cURL
+```
+curl --location --globoff '{{endpoint}}/trending/{{region}}' \
+--header 'x-api-key: {{token}}'
+```
 
 ---
 
